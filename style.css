@@ -1,0 +1,1424 @@
+body
+{
+    background-color: rgba(128, 128, 128, 0.336);
+}
+.entete
+{
+    display: flex;
+    height:60px;
+    margin-left:500px;
+    position: relative;
+    bottom: -25px;
+}
+.entete input
+{
+    position: relative;
+    right:150px;
+    padding: 2px;
+    margin:12px;
+    width:30%;
+}
+.logo
+{
+    position: relative;
+    right:400px;
+    top: -20px;
+    height: 90px;
+}
+.search
+{
+    position: relative;
+    right:150px;
+    height: 40px;
+    margin-top: 3px;
+}
+.panier
+{
+    height: 35px;
+    margin-top: 5px;
+}
+.favoris
+{
+    height: 35px;
+    margin-top: 7px;
+}
+.contact1
+{
+    height: 30px;
+    margin-top: 8px;
+    position: relative;
+    left: 1px ;
+}
+ul 
+{
+    display:flex;
+    background-size: cover;
+	padding:6px;
+	margin-top:3%;
+    background-color: white;
+    font-weight: bolder;
+    color: #C9006C;
+
+}
+ul a 
+{
+    color: #C9006C;
+    margin-left: 10px; 
+    font-size: 20px;   
+}
+ul a:hover 
+{
+    background-color:#C9006C;
+    color: white;
+    border-radius:7px;
+}
+.dropbtn 
+{
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.dropbtn a
+{
+    text-decoration: none;
+}
+  
+.dropdown 
+{
+    position: relative;
+    display: inline-block; 
+} 
+
+ul .menu 
+{
+    display: block;
+}
+  
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+  
+.dropdown-content li a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover 
+{
+    background-color:#C9006C;
+    color: white;
+}
+  
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn
+{
+    background-color:#C9006C;
+    color:white;
+    display: block;
+}
+.categories
+{
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    padding: 22px;
+    bottom: -20px;
+}
+.accueil
+{
+    text-decoration: none;
+    position: relative;
+    left: 160px;
+    padding: 22px;
+    bottom: -20px;
+}
+.galerie
+{
+    text-decoration: none;
+    position: relative;
+    left: 140px;
+    padding: 22px;
+    bottom: -20px;
+}
+.metiers
+{
+    text-decoration: none;
+    position: relative;
+    left: 120px;
+    padding: 22px;
+    bottom: -20px;
+}
+.contact
+{
+    text-decoration: none;
+    position: relative;
+    left: 100px !important;
+    padding: 22px;
+    bottom: -20px;
+}
+.boutique
+{
+    text-decoration: none;
+    position: relative;
+    left: 80px;
+    padding: 22px;
+    bottom: -20px;
+}
+.collection
+{
+    text-decoration: none;
+    position: relative;
+    left: 60px;
+    padding: 22px;
+    bottom: -20px;
+}
+.espace
+{
+    text-decoration: none;
+    position: relative;
+    left: 80px;
+    background-color: #C9006C;
+    color: white;
+    padding: 21px;
+    bottom: -16px;
+}
+.banier
+{
+    width: 100%;
+    height: 500px;
+    opacity: 40%;
+}  
+.gbanier p
+{
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 3px 2px black;
+    box-shadow: 10px 10px #999;
+    position: relative;
+    top: -380px;
+    color: white;
+    border: 1px solid white;
+    background-color: #C9006C;
+} 
+.gbanier input
+{
+    font-size: 19px;
+    position: relative;
+    top: -380px;
+    left: 500px;
+    color:white;
+    border: 1px solid white;
+    background-color:#C9006C;
+    padding: 17px 13px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+}
+.gbanier input:hover
+{
+    color:black;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 30px;
+    padding: 17px 13px;
+}
+.gbanier input:active {
+    background-color:#c9006b94;
+    color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.modele
+{
+    font-size: 50px;
+    text-align: center;
+    color: #C9006C;
+    text-shadow: 2px 2px white;
+    margin-bottom: 60px;
+    position: relative;
+    top: -270px;
+}
+.produits
+{
+    display: flex;
+    background-color: white;
+    margin-top:-300px;
+    padding: 20px;
+}
+.produits p
+{
+    margin-left: 20px;
+}
+.produits button
+{
+    margin-left: 22px;
+    font-size: 19px;
+    color:white;
+    border: 1px solid white;
+    background-color:#C9006C;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+}
+.produits button:active {
+    background-color:#c9006b94;
+    color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
+.sac 
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+.sac img
+{
+    padding:10px;
+}
+.menui 
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+.menui img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.veste
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+.veste img
+{
+    height: 193px;
+    padding:10px;   
+}
+.peintre 
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+.peintre img
+{
+    height: 194px; 
+    padding:10px;
+  
+}
+.decorateur 
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+}
+.decorateur img
+{
+    width: 20vw;
+    height: 194px;
+    padding:10px;    
+}
+.promo1
+{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 70%;
+    margin: 70px;
+    margin-left: 194px;
+    box-shadow: 2px solid #C9006C;
+}
+.promotext
+{
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+    left: 130px;
+    font-size: 20px;
+    line-height: 1px;
+}
+.promo2
+{
+    color: red;
+    font-weight: bold;
+    font-size: 60px;
+    position: relative;
+    top: -10px;    
+    text-shadow: 1px 1px black;
+}
+.promo3
+{
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    text-shadow: 0.5px 0.5px black;
+}
+.promo4
+{
+    color: red;
+    font-weight: bold;
+    font-size: 33px;
+    position: relative;
+    top: -50px;
+    text-shadow: 1px 1px black;
+}
+.promo
+{
+    height: 230px;
+    position: relative;
+    left: 60px;
+}
+.collier
+{
+    display: flex;
+    background-color: white;
+    margin-top:-10px;
+    padding: 20px;
+    
+}
+.collier p
+{
+    margin-left: 20px;
+}
+.collier button
+{
+    margin-left: 22px;
+    font-size: 19px;
+    color:white;
+    border: 1px solid white;
+    background-color:#C9006C;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+}
+.collier button:active
+{
+    background-color:#c9006b94;
+    color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.voirplus button
+{
+    width: 100%;
+    padding:20px;
+    position: relative;
+    bottom: -160px;
+    left: 90px;
+    border-radius: 18px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+}
+.voirplus button:active {
+    background-color:#c9006b94;
+    color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.cheville 
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+.cheville img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.hanche
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    position: relative;
+    left: 30px;
+}
+.hanche img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.cou
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 60px;
+}
+.cou img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+hr
+{
+    border:1px solid #C9006C;
+    width: 10%;
+    position: relative;
+    top: 23px;
+}
+.clients
+{
+    font-size: 50px;
+    text-align: center;
+    color: #C9006C;
+    position: relative;
+    top: -10px;
+    text-shadow: 2px 2px white;
+}
+.bclients p
+{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+.temoin
+{
+    display: flex;
+}
+.nom
+{
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+}
+.icon
+{
+    width: 15%;
+}
+.ticon
+{
+    width: 20%;
+    position: relative;
+    top: -90px;
+    left: 200px;
+}
+.comment 
+{
+    position: relative;
+    top: -80px;
+    margin-left: 50px;
+}
+.comment p
+{
+    font-size: 20px;
+}
+.temoin2
+{
+    position: relative;
+    top: -90px;
+}
+.suite
+{
+    font-size: 25px;
+    color: #C9006C;
+    width: 16%;
+    text-decoration: underline #C9006C;
+    position: relative;
+    left: 550px;
+    top:-70px;
+}
+footer
+{
+    background-color: black;
+    border-top: 15px solid #C9006C;
+    height: 400px;
+    padding:auto;
+}
+.logofooter
+{
+    width: 10%;
+    position: relative;
+    bottom:60px;
+    left: 60px;
+}
+.page
+{
+    color: white;
+    display: inline-block;
+    line-height: 24px;
+    position: relative;
+    bottom: -40px;
+    left: 110px;
+}
+.page h5
+{
+    font-size: 25px;
+}
+.page a
+{
+    text-decoration: none;
+    color: white;
+}
+.page a:hover
+{
+    color: #C9006C;
+}
+.categorie
+{
+    color: white;
+    display: inline-block;
+    line-height: 24px;
+    position: relative;
+    bottom: 32px;
+    left: 180px;
+}
+.categorie h5
+{
+    font-size: 25px;
+}
+.categorie a
+{
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+}
+.categorie a:hover
+{
+    color: #C9006C;
+}
+.localisation 
+{
+    position: relative;
+    top:-247px;
+    left: 770px;
+    width: 15%;
+}
+.localisation img
+{
+    height: 60px;
+    position: relative;
+    left: 40px;
+}
+
+.localisation p
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    position: relative;
+    top:7px;
+}
+.suivre
+{
+    position: relative;
+    top:-372px;
+    left: 1030px;
+    width: 15%;
+}
+.suivre h5
+{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.iconfooter
+{
+    width: 15%;
+    position: relative;
+    top:-16px;
+}
+span
+{
+    text-decoration: line-through;
+}
+
+/*--Boutique--*/
+.banier2 img
+{
+    width: 100%;
+    height: 500px;
+    opacity: 50%;
+}
+.banier2 p
+{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: -380px;
+    color:#C9006C;
+    font-weight: bolder;
+    text-shadow: 2px 2px white;
+}
+.banier2 hr
+{
+    position: relative;
+    top: -140px;
+}
+.mode
+{
+    color:#C9006C;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -160px;
+    text-shadow: 2px 2px white;
+}
+.collier1
+{
+    display: flex;
+    background-color: white;
+    margin-top:-130px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 2px 8px #999;
+}
+.collier1 p
+{
+    margin-left: 20px;
+}
+.collier1 button
+{
+    margin-left: 22px;
+    font-size: 19px;
+    color:white;
+    border: 1px solid white;
+    background-color:#C9006C;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+}
+.collier1 button:active {
+    background-color:#c9006b94;
+    color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.voirplus button
+{
+    width: 100%;
+    padding:20px;
+    position: relative;
+    bottom: -160px;
+    left: 90px;
+    border-radius: 18px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+}
+.voirplus button:active {
+    background-color:#c9006b94;
+    color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.cheville 
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+.cheville img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.hanche
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    position: relative;
+    left: 30px;
+}
+.hanche img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.cou
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 60px;
+}
+.cou img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.cou1
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 90px;
+}
+.cou1 img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.banier3
+{
+    margin-top: 200px;
+}
+.banier3 p
+{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: -380px;
+    color:#C9006C;
+    font-weight: bolder;
+}
+.banier3 hr
+{
+    position: relative;
+    top: -140px;
+}
+.mode
+{
+    color:#C9006C;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -160px;
+}.collier1
+{
+    display: flex;
+    background-color: white;
+    margin-top:-130px;
+    padding: 20px;
+    margin-bottom: 30px;
+    
+}
+.collier1 p
+{
+    margin-left: 20px;
+}
+.collier1 button
+{
+    margin-left: 22px;
+    font-size: 19px;
+    color:white;
+    border: 1px solid white;
+    background-color:#C9006C;
+    border-radius: 30px;
+    padding: 8px;
+}
+.voirplus button
+{
+    width: 100%;
+    padding:20px;
+    position: relative;
+    bottom: -160px;
+    left: 90px;
+    border-radius: 18px;
+}
+.cheville 
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+.cheville img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.hanche
+{
+    border: 1px solid black;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    position: relative;
+    left: 30px;
+}
+.hanche img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.cou
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 60px;
+}
+.cou img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+.cou1
+{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    left: 90px;
+}
+.cou1 img
+{
+    height: 194px;
+    width: 20vw;
+    padding:10px;
+}
+
+/*metiers*/
+.banier4 img
+{
+    width: 100%;
+    height: 500px;
+    opacity: 40%;
+    box-shadow: 2px 8px #999;
+}
+.banier4 p
+{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: -380px;
+    color:#C9006C;
+    font-weight: bolder;
+    text-shadow: 2px 2px white;
+}
+.banier4 hr
+{
+    position: relative;
+    top: 610px;
+    width:7%;
+}
+.metier2
+{
+    color:#C9006C;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -140px;
+    text-shadow: 2px 2px white;
+}
+.metier
+{
+    display: flex;
+    background-color: #C9006C;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width: 90%;
+    position: relative;
+    top: -90px;
+    left: 55px;
+    box-shadow: 2px 8px #999;
+}
+.metier img
+{
+    height: 250px;
+    margin: 10px;
+    position: relative;
+    left: 50px;
+}
+.metier p
+{
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    position: relative;
+    left: 90px;
+    bottom: -30px;
+}
+.metier1
+{
+    display: flex;
+    background-color: white;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width: 90%;
+    position: relative;
+    top: -30px;
+    left: 55px;
+    box-shadow: 2px 8px #999;
+}
+.metier1 img
+{
+    height: 250px;
+    margin: 10px;
+    position: relative;
+    left: 90px;
+}
+.metier1 p
+{
+    font-size: 20px;
+    text-align: left;
+    color:black;
+    position: relative;
+    left: 50px;
+    bottom: -30px;
+}
+.banier5 .metier2
+{
+    color:#C9006C;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin: 90px;
+    position: relative;
+    top: -75px;
+}
+.banier5 hr
+{
+    position: relative;
+    top: 60px;
+    width:7%;
+}
+
+/*galerie*/
+.ggalerie img
+{
+    height: 240px;
+    margin: 20px;
+    border-radius: 20px;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+.ggalerie img:hover 
+{
+    height: 230px;
+    transform: scale(1.5);
+ }
+
+ /*bijoux*/
+ .garticle
+ { 
+    display: flex;
+    margin-left: 55px;
+ }
+ .banierbijoux
+ {
+     width: 100%;
+     height: 500px;
+     opacity: 40%;
+ } 
+ .banierbijoux1 p
+{
+    font-size: 65px;
+    text-align: left;
+    text-shadow: 1px 2px white;
+    position: relative;
+    top: -390px;
+    color:#C9006C;
+    margin-left: 20px;
+} 
+.article img
+{
+    height: 190px;
+    background-color: #C9006C;
+    margin: 6px;
+}
+.article p
+{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    top: -28px;
+}
+.article 
+{
+    background-color: #C9006C;
+    width: 26.8%;
+    height: 350px;
+    position: relative;
+    top: -200px;
+    border-bottom-right-radius: 70px;
+    margin-left:13px;
+}
+.article button
+{
+    font-size: 19px;
+    color:black;
+    border: 1px solid white;
+    background-color:white;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+    position: relative;
+    top: -47px;
+    left: 170px;
+}
+.article button:active 
+{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.article1
+{
+    background-color: white;
+    width: 26.8%;
+    height: 350px;
+    position: relative;
+    top: -200px;
+    border-bottom-right-radius: 70px;
+    margin-left:63px;
+}
+.article1 img
+{
+    height:190px;
+    margin: 6px;
+    width: 315px;
+}
+.article1 p
+{
+    margin-left: 20px;
+    color:#C9006C;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    top: -28px;
+}
+.article1 button
+{
+    font-size: 19px;
+    color:white;
+    border: 1px solid #C9006C;
+    background-color:#C9006C;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+    position: relative;
+    top: -47px;
+    left: 170px;
+}
+.article1 button:active 
+{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.article2 img
+{
+    height: 190px;
+    background-color: #C9006C;
+    margin: 6px;
+}
+.article2 p
+{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    top: -28px;
+}
+.article2 
+{
+    background-color: #C9006C;
+    width: 26.8%;
+    height: 350px;
+    position: relative;
+    top: -200px;
+    border-bottom-right-radius: 70px;
+    margin-left:63px;
+}
+.article2 button
+{
+    font-size: 19px;
+    color:black;
+    border: 1px solid white;
+    background-color:white;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+    position: relative;
+    top: -47px;
+    left: 170px;
+}
+.article2 button:active 
+{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.article3 img
+{
+    height:190px;
+    margin: 6px;
+    width: 315px;
+}
+.article3 p
+{
+    margin-left: 20px;
+    color:#C9006C;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    top: -28px;
+}
+.article3 
+{
+    background-color:white;
+    width: 26.8%;
+    height: 350px;
+    position: relative;
+    top: -200px;
+    border-bottom-right-radius: 70px;
+    margin-left:13px;
+}
+.article3 button
+{
+    font-size: 19px;
+    color:white;
+    border: 1px solid #C9006C;
+    background-color:#C9006C;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+    position: relative;
+    top: -47px;
+    left: 170px;
+}
+.article3 button:active 
+{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.article4 img
+{
+    height: 190px;
+    margin: 6px;
+    width: 315px;
+}
+.article4 p
+{
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+    position: relative;
+    top: -28px;
+}
+.article4 
+{
+    background-color: #C9006C;
+    width: 26.8%;
+    height: 350px;
+    position: relative;
+    top: -200px;
+    border-bottom-right-radius: 70px;
+    margin-left:63px;
+}
+.article4 button
+{
+    font-size: 19px;
+    color:black;
+    border: 1px solid white;
+    background-color:white;
+    border-radius: 30px;
+    padding: 8px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+    position: relative;
+    top: -47px;
+    left: 170px;
+}
+.article4 button:active 
+{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/*formulaire*/
+form
+{
+    font-size: 25px;
+    border: 4px solid #C9006C;
+    background-color: white;
+    width: 50%;
+    margin-left: 24%;
+    margin-top: -9%;
+    line-height: 55px;
+    margin-bottom: 10%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 25px;
+}
+strong
+{
+    color: red;
+}
+form input
+{
+    padding: 4px;
+    width: 60%;
+    position: relative;
+    left: 10%;
+}
+.form
+{
+    position: relative;
+    left: 80px;
+}
+.form1
+{
+    position: relative;
+    left: 51px;
+}
+.form2
+{
+    position: relative;
+    left: 69px;
+}
+.form3
+{
+    position: relative;
+    left: 95px;
+}
+form input:hover
+{
+    border: 1px solid #C9006C;
+}
+form textarea:hover
+{
+    border: 1px solid #C9006C;
+}
+form label
+{
+    margin-left: 20px;
+}
+form textarea
+{
+    margin-left: 20px;
+}
+form button
+{
+    margin-left: 29%;
+    margin-top: 7%;
+    font-size: 23px;
+    color:white;
+    border: 1px solid white;
+    background-color:#C9006C;
+    border-radius: 30px;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 2px 8px #999;
+    width: 40%;
+}
+form button:active {
+    background-color:#c9006b94;
+    color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
+.perso
+{
+    margin: 30px;
+    display: flex;
+}
+.perso img
+{
+    height: 450px;
+    position: relative;
+    top: 35px;
+    left: 10%;
+    border: 1px solid white;
+}
+.perso p
+{
+    font-size: 21px;
+}
+.perso h3
+{
+    font-size: 40px;
+    color: #C9006C;
+    text-shadow:1px 2px white;
+}
+.persotext
+{
+    margin-left: 240px;
+}
+.persotext img
+{
+    height: 160px;
+    position: relative;
+    left: -240px;
+    top: -120px;
+    border: 5px solid white;
+}
+.perso1 
+{
+    margin-left: 120px;
+    margin-bottom: -230px;
+}
+.perso1 hr
+{
+    border:2px solid #C9006C;
+    width: 20%;
+    position: relative;
+    top: -120px;
+}
+.perso1 img
+{
+    border:2px solid white;
+    height: 270px;
+    margin: 14px;
+}
+.perso1img
+{
+    width: 480px;
+}
+.perso1img1
+{
+    width: 477px;
+}
+.perso1img2
+{
+    height: 350px !important;
+    width: 450px;
+    position: relative;
+    top: -500px;
+    left: 270px;
+}
+.perso1 h2
+{
+    font-size: 40px;
+    color: #C9006C;
+    text-shadow:1px 2px white;
+}
